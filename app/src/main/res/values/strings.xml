@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sensors&amp;Ai</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">All about Sensor</string>
+    <string name="desc_slide1">It will tell you almost everything about Sensors</string>
+    <string name="title_slide2">A.I basics </string>
+    <string name="desc_slide2">It will tell you about some AI basic,library and api </string>
+    <string name="title_slide3">Amazing Tools </string>
+    <string name="desc_slide3">it contains many amazing tools</string>
+    <string name="sensors_and_ai_is_an_android_application_which_will_give_you_the_complete_information_about_all_the_sensors_and_some_basic_information_about_artificial_intelligence_this_application_will_tell_you_about_the_use_and_implementation_of_the_sensors_and_artificial_intelligence_this_app_will_show_you_how_sensors_and_artificial_intelligence_is_used_in_any_android_projects_it_will_also_give_you_all_the_updates_related_to_sensor_and_artificial_intelligence">Sensors And Ai is an android application which will give you the complete information about all the sensors and some basic information about artificial intelligence.This application will tell you about the use and implementation of the sensors and artificial intelligence.This app will show you how sensors and artificial intelligence is used in any android projects. It will also give you all the updates related to sensor and artificial intelligence</string>
+    <string name="by_najmus_seemab">BY:-NAJMUS SEEMAB</string>
+
+    <string name="madhura_p_divakara">Madhura P Divakara</string>
+
+    <string name="click_on_the_above_icon_and_speak">Click on the above icon and speak</string>
+    <string name="magetic_sensor">Magetic Sensor</string>
+    <string name="o">o</string>
+    <string name="it_will_detect_hard_iron_and_electromagnetic_waves">it will detect hard iron and electromagnetic waves</string>
+
+    <string name="proximity_sensor_value_in_cm">Proximity Sensor value in cm</string>
+    <string name="this_sensor_capture_the_distance_to_an_object_relative_to_screen_in_cm_this_sensor_is_close_to_the_speaker_of_phone_so_that_the_screen_get_turned_off_during_a_phone_call_when_the_phone_is_near_to_ear">This sensor capture the distance to an object relative to screen in cm. This sensor is close to the speaker of phone so that the screen get turned off,during a phone call when the phone is near to ear.</string>
+
+</resources>

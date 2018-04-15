@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context="com.example.najmus.sensorsai.ProximitySensor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/proximity_sensor_value_in_cm"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/proximity"
+            android:layout_gravity="center"
+            android:contentDescription="" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#a1a9a39b"
+
+            android:text=""
+            android:textColor="#3803fa"
+            android:layout_gravity="center"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/this_sensor_capture_the_distance_to_an_object_relative_to_screen_in_cm_this_sensor_is_close_to_the_speaker_of_phone_so_that_the_screen_get_turned_off_during_a_phone_call_when_the_phone_is_near_to_ear"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

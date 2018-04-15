@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.najmus.sensorsai.GravitySensor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaff77"
+        android:text="Gravity"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#fd8802"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/gravitysensor"
+            />
+    <TextView
+        android:id="@+id/xtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77aaff"
+        android:text="x="
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#020ffd"
+
+        />
+    <TextView
+        android:id="@+id/ytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#efeff2"
+        android:text="Y="
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#22f501"
+        />
+    <TextView
+        android:id="@+id/ztext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2e2cd"
+        android:text="Z="
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#fc03d7"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="This Sensor measure the gravity force on the device in m/s*s"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

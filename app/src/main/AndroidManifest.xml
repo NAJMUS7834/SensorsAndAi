@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.najmus.sensorsai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckYourSensor"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".LightSensor"
+            android:parentActivityName=".CheckYourSensor" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Ai" />
+        <activity android:name=".ChatBot" />
+        <activity android:name=".MagneticSensor" />
+        <activity android:name=".Tools" />
+        <activity android:name=".Compass" />
+        <activity android:name=".GravitySensor" />
+        <activity android:name=".SpeciaSensor" />
+        <activity android:name=".StepCounter" />
+        <activity android:name=".SensorUpdates" />
+        <activity android:name=".AiUpdates" />
+        <activity android:name=".SensorUhave" />
+        <activity android:name=".ProximitySensor"></activity>
+    </application>
+
+</manifest>
