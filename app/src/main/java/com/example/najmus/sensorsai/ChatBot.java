@@ -1,4 +1,7 @@
  package com.example.najmus.sensorsai;
+/*====================================
+    Author : NAJMUS SEEMAB
+======================================*/
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
