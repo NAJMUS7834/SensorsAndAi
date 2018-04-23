@@ -1,4 +1,7 @@
 package com.example.najmus.sensorsai;
+/*====================================
+    Author : NAJMUS SEEMAB
+======================================*/
 
 import android.content.Intent;
 import android.os.Bundle;
