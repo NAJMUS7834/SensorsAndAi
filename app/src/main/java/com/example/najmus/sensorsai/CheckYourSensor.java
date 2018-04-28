@@ -35,6 +35,10 @@ public class CheckYourSensor extends AppCompatActivity {
         Intent SensorUhaveIntent = new Intent(CheckYourSensor.this,SensorUhave.class);
         startActivity(SensorUhaveIntent);
     }
+    public void SensorsVisualClicked(View view){
+        Intent SensorVisualIntent = new Intent(CheckYourSensor.this,SensorVisual.class);
+        startActivity(SensorVisualIntent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );

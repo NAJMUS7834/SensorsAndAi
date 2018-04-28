@@ -41,7 +41,18 @@
         <activity android:name=".SensorUpdates" />
         <activity android:name=".AiUpdates" />
         <activity android:name=".SensorUhave" />
-        <activity android:name=".ProximitySensor"></activity>
+        <activity android:name=".ProximitySensor" />
+        <activity android:name=".Game" />
+        <activity android:name=".Level" />
+        <activity android:name=".Play" />
+        <activity android:name=".Play10" />
+        <activity android:name=".Play15" />
+        <activity android:name=".Play20" />
+        <activity android:name=".Play30" />
+        <activity android:name=".Rules" />
+        <activity android:name=".SensorVisual" />
+        <activity android:name=".LightVisual" />
+        <activity android:name=".ProximityVisual"></activity>
     </application>
 
 </manifest>

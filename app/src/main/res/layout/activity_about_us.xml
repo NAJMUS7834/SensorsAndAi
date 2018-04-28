@@ -37,7 +37,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:src="@drawable/najmusapp"
-        />
+            android:contentDescription="@string/IMAGE" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,28 +49,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
             android:textColor="#f2060e"
             android:textStyle="bold" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_marginTop="10dp"
-            android:background="#44948e8e"
-            android:textColor="#0511fd"
-            android:textStyle="bold"
-            android:text="Contributors"
-            android:layout_gravity="center"
-            />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Madhura P Divakara
-     Soumaya L G"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:textColor="#ff0202"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
     </LinearLayout>
 
 

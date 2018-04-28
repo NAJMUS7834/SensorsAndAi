@@ -15,7 +15,8 @@
         <ImageView
             android:layout_width="@dimen/img_width"
             android:layout_height="@dimen/img_height"
-            android:src="@drawable/cys"/>
+            android:src="@drawable/cys"
+            android:contentDescription="@string/todo41" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -27,7 +27,7 @@
             android:layout_height="250dp"
             android:src="@drawable/proximity"
             android:layout_gravity="center"
-            android:contentDescription="" />
+            android:contentDescription="@string/todo23" />
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"

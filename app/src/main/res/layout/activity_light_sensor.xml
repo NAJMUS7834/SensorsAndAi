@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="5dp">
 
@@ -20,17 +19,18 @@
        <TextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:text="Light intensity"
+           android:text="@string/light_intensity"
            android:textStyle="bold"
            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/download2"/>
+            android:src="@drawable/download2"
+            android:contentDescription="@string/todo21" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ambidental light intensity in lux:"
+            android:text="@string/ambidental_light_intensity_in_lux"
             android:textStyle="bold"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
         <TextView
@@ -46,9 +46,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textStyle="bold"
-            android:text="The ambident light level in the SI unit*Lux.
-
-The sensor measure the light intensity which incident on the unit and controls the display brightness(if set)"/>
+            android:text="@string/the_ambident_light_level_in_the_si_unit_lux_the_sensor_measure_the_light_intensity_which_incident_on_the_unit_and_controls_the_display_brightness_if_set"/>
 
 
 

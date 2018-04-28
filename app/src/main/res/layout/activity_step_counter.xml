@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.najmus.sensorsai.StepCounter">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Step counter"
+            android:text="@string/step_counter2"
             android:gravity="center"
             android:textStyle="bold"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
@@ -23,11 +23,12 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/stepcou"/>
+            android:src="@drawable/stepcou"
+            android:contentDescription="@string/todo35" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Steps"
+            android:text="@string/steps"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:id="@+id/tv_info"
             android:textStyle="bold"
@@ -38,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="0"
+            android:text="@string/_0"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
             android:id="@+id/tv_steps"
             android:textStyle="bold"
@@ -47,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-            android:text="A Sensor of this type returns the number of steps taken by the user since the last reboot while activated.activity value is reset to zeroonly on a system reboot"
+            android:text="@string/a_sensor_of_this_type_returns_the_number_of_steps_taken_by_the_user_since_the_last_reboot_while_activated_activity_value_is_reset_to_zeroonly_on_a_system_reboot"
             android:textStyle="bold"/>
 
 

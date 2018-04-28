@@ -19,7 +19,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/stepcou"
-            android:scrollbarSize="5dp" />
+            android:scrollbarSize="5dp"
+            android:contentDescription="@string/todo31" />
 
 
         <Button
@@ -34,8 +35,10 @@
             android:layout_toRightOf="@+id/imageView"
             android:background="@drawable/buttonim"
             android:onClick="StepCounterButtonClicked"
-            android:text="STEP COUNTER"
-            android:textStyle="bold"/>
+            android:text="@string/step_counter"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp" />
         <Button
             android:id="@+id/button2"
             android:layout_marginLeft="5dp"
@@ -48,8 +51,10 @@
             android:layout_toRightOf="@+id/imageView"
             android:background="@drawable/buttonur"
 
-            android:text="Significant motion"
-            android:textStyle="bold"/>
+            android:text="@string/significant_motion30"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -60,7 +65,9 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@+id/button2"
-            app:srcCompat="@drawable/signifi" />
+            app:srcCompat="@drawable/signifi"
+            android:layout_toEndOf="@+id/button2"
+            android:contentDescription="@string/todo29" />
         <Button
             android:id="@+id/button3"
             android:layout_marginLeft="5dp"
@@ -73,8 +80,9 @@
             android:layout_toEndOf="@+id/imageView3"
             android:layout_toRightOf="@+id/imageView3"
             android:background="@drawable/buttonim"
-            android:text="Basic Gesture"
-            android:textStyle="bold"/>
+            android:text="@string/basic_gesture"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -84,7 +92,8 @@
             android:layout_marginTop="5dp"
             android:layout_toLeftOf="@+id/button3"
             android:layout_toStartOf="@+id/button3"
-            app:srcCompat="@drawable/basicg" />
+            app:srcCompat="@drawable/basicg"
+            android:contentDescription="@string/todo28" />
         <Button
             android:id="@+id/button4"
             android:layout_marginLeft="5dp"
@@ -97,9 +106,9 @@
             android:layout_toEndOf="@+id/imageView4"
             android:layout_toRightOf="@+id/imageView4"
             android:background="@drawable/buttonur"
-            android:text="Facing"
+            android:text="@string/facing"
             android:textStyle="bold"
-            />
+            android:layout_marginStart="5dp" />
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="50dp"
@@ -108,6 +117,7 @@
         android:layout_marginTop="5dp"
         android:layout_toLeftOf="@+id/button4"
         android:layout_toStartOf="@+id/button4"
-        app:srcCompat="@drawable/facin" />
+        app:srcCompat="@drawable/facin"
+        android:contentDescription="@string/todo26" />
     </RelativeLayout>
 </ScrollView>

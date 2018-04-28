@@ -17,7 +17,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:background="@drawable/mainbg"/>
+        android:background="@drawable/mainbg"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -27,7 +28,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="110dp"
-        app:srcCompat="@drawable/cys" />
+        app:srcCompat="@drawable/cys"
+        android:contentDescription="@string/TODO3" />
 
     <Button
         android:id="@+id/button4"
@@ -41,10 +43,11 @@
         android:layout_toRightOf="@+id/imageView4"
         android:background="@drawable/buttonim"
         android:onClick="CheckButtonClicked"
-        android:text="CHECK YOUR SENSORS"
+        android:text="@string/check_your_sensors"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="#121213"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp" />
 
     <Button
         android:id="@+id/button5"
@@ -58,11 +61,12 @@
         android:layout_toRightOf="@+id/imageView4"
         android:background="@drawable/buttonur"
         android:layout_marginTop="5dp"
-        android:text="ARTIFICIAL INTELLIGENCE"
+        android:text="@string/artificial_intelligence"
         android:onClick="AiButtonClicked"
         android:textStyle="bold"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        android:textColor="#121213"/>
+        android:textColor="#121213"
+        android:layout_marginEnd="20dp" />
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="50dp"
@@ -71,7 +75,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView4"
         app:srcCompat="@drawable/ai"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/todo38" />
 
     <Button
         android:id="@+id/button6"
@@ -86,11 +91,12 @@
         android:layout_alignStart="@+id/button5"
         android:layout_centerVertical="true"
         android:background="@drawable/buttonim"
-        android:text="TOOLS"
+        android:text="@string/tools"
         android:onClick="ToolsButtonClicked"
         android:layout_marginTop="5dp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        android:textColor="#121213"/>
+        android:textColor="#121213"
+        android:layout_marginEnd="20dp" />
 
 
     <ImageView
@@ -101,7 +107,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView5"
         app:srcCompat="@drawable/tools"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/todo39" />
     <Button
         android:id="@+id/button7"
         android:textStyle="bold"
@@ -115,11 +122,12 @@
         android:layout_alignStart="@+id/button6"
         android:layout_centerVertical="true"
         android:background="@drawable/buttonur"
-        android:text="SENSOR UPDATES "
+        android:text="@string/sensor_updates"
         android:onClick="SensorUpdateButtonClicked"
         android:layout_marginTop="5dp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        android:textColor="#121213"/>
+        android:textColor="#121213"
+        android:layout_marginEnd="20dp" />
 
 
     <ImageView
@@ -130,7 +138,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView6"
         app:srcCompat="@drawable/upda"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/todo37" />
         <Button
             android:id="@+id/button8"
             android:textStyle="bold"
@@ -144,11 +153,12 @@
             android:layout_alignStart="@+id/button6"
             android:layout_centerVertical="true"
             android:background="@drawable/buttonim"
-            android:text="AI UPDATES "
+            android:text="@string/ai_updates"
             android:onClick="AiUpdatesClicked"
             android:layout_marginTop="5dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:textColor="#121213"/>
+            android:textColor="#121213"
+            android:layout_marginEnd="20dp" />
 
 
         <ImageView
@@ -159,7 +169,9 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/imageView7"
             app:srcCompat="@drawable/upda"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/todo37" />
+
 
 
 </RelativeLayout>

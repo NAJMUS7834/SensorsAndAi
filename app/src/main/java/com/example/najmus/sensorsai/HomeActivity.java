@@ -40,6 +40,7 @@ public class HomeActivity extends AppCompatActivity
         startActivity(AiupdatesIntent);
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );

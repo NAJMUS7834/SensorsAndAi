@@ -24,7 +24,7 @@
             android:background="@drawable/download2"
             android:scrollbarSize="5dp"
 
-            />
+            android:contentDescription="@string/todo16" />
 
 
         <Button
@@ -39,8 +39,10 @@
             android:layout_toEndOf="@+id/imageView"
             android:layout_toRightOf="@+id/imageView"
             android:background="@drawable/buttonim"
-            android:text="LIGHT SENSOR"
-            android:textStyle="bold"/>
+            android:text="@string/light_sensor"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp" />
         <Button
             android:id="@+id/button2"
             android:layout_marginLeft="5dp"
@@ -53,8 +55,10 @@
             android:layout_toRightOf="@+id/imageView"
             android:background="@drawable/buttonur"
             android:onClick="GravitySensorButtonClicked"
-            android:text="GRAVITY SENSOR"
-            android:textStyle="bold"/>
+            android:text="@string/gravity_sensor"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -65,7 +69,9 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@+id/button2"
-            app:srcCompat="@drawable/gravity" />
+            app:srcCompat="@drawable/gravity"
+            android:layout_toEndOf="@+id/button2"
+            android:contentDescription="@string/todo17" />
         <Button
             android:id="@+id/button3"
             android:layout_marginLeft="5dp"
@@ -79,8 +85,9 @@
             android:layout_toRightOf="@+id/imageView3"
             android:background="@drawable/buttonim"
             android:onClick="ProxSensorClicked"
-            android:text="PROXIMITY SENSOR"
-            android:textStyle="bold"/>
+            android:text="@string/proximity_sensor"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -90,7 +97,8 @@
             android:layout_marginTop="5dp"
             android:layout_toLeftOf="@+id/button3"
             android:layout_toStartOf="@+id/button3"
-            app:srcCompat="@drawable/plant" />
+            app:srcCompat="@drawable/plant"
+            android:contentDescription="@string/todo12" />
         <Button
             android:id="@+id/button4"
             android:layout_marginLeft="5dp"
@@ -103,9 +111,10 @@
             android:layout_toEndOf="@+id/imageView4"
             android:layout_toRightOf="@+id/imageView4"
             android:background="@drawable/buttonur"
-            android:text="MAGNETIC SENSOR"
+            android:text="@string/magnetic_sensor"
             android:onClick="magneticSenosorClicked"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -117,7 +126,8 @@
             android:layout_marginTop="5dp"
             android:layout_toLeftOf="@+id/button4"
             android:layout_toStartOf="@+id/button4"
-            app:srcCompat="@drawable/magnet1" />
+            app:srcCompat="@drawable/magnet1"
+            android:contentDescription="@string/todo11" />
         <Button
             android:id="@+id/button5"
             android:layout_marginLeft="5dp"
@@ -130,8 +140,9 @@
             android:layout_toEndOf="@+id/imageView5"
             android:layout_toRightOf="@+id/imageView5"
             android:background="@drawable/buttonim"
-            android:text="THERMAL SENSOR"
-            android:textStyle="bold"/>
+            android:text="@string/thermal_sensor"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -144,7 +155,8 @@
             android:layout_toLeftOf="@+id/button5"
             android:layout_toStartOf="@+id/button5"
             app:srcCompat="@drawable/thermal"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:contentDescription="@string/todo15" />
         <Button
             android:id="@+id/button6"
             android:layout_marginLeft="5dp"
@@ -158,8 +170,9 @@
             android:layout_toRightOf="@+id/imageView6"
             android:background="@drawable/buttonur"
             android:onClick="SpecialSensorButtonClicked"
-            android:text="SPECIAL SENSOR"
-            android:textStyle="bold"/>
+            android:text="@string/special_sensor"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -171,7 +184,8 @@
             android:layout_marginTop="5dp"
             android:layout_toLeftOf="@+id/button6"
             android:layout_toStartOf="@+id/button6"
-            app:srcCompat="@drawable/special" />
+            app:srcCompat="@drawable/special"
+            android:contentDescription="@string/todo9" />
         <Button
             android:id="@+id/button7"
             android:layout_marginLeft="5dp"
@@ -185,8 +199,9 @@
             android:layout_toRightOf="@+id/imageView7"
             android:background="@drawable/buttonim"
             android:onClick="SensorsUHaveBtnCkd"
-            android:text="SENSORS U HAVE"
-            android:textStyle="bold"/>
+            android:text="@string/sensors_u_have"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
 
         <ImageView
             android:id="@+id/imageView8"
@@ -198,7 +213,38 @@
             android:layout_marginTop="5dp"
             android:layout_toLeftOf="@+id/button7"
             android:layout_toStartOf="@+id/button7"
-            app:srcCompat="@drawable/yourdevice" />
+            app:srcCompat="@drawable/yourdevice"
+            android:contentDescription="@string/todo14" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/button7"
+            android:layout_alignRight="@+id/button7"
+            android:layout_below="@+id/button7"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imageView8"
+            android:layout_toRightOf="@+id/imageView8"
+            android:background="@drawable/buttonur"
+            android:onClick="SensorsVisualClicked"
+            android:text="@string/sensor_visualization"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/button8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/button8"
+            android:layout_toStartOf="@+id/button8"
+            app:srcCompat="@drawable/visual"
+            android:contentDescription="@string/todo13" />
+
     </RelativeLayout>
 
 </ScrollView>

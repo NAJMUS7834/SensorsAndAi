@@ -21,7 +21,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/download2"
-                android:scrollbarSize="5dp" />
+                android:scrollbarSize="5dp"
+                android:contentDescription="@string/todo2" />
 
 
             <Button
@@ -37,7 +38,9 @@
                 android:layout_toEndOf="@+id/imageView"
                 android:layout_toRightOf="@+id/imageView"
                 android:background="@drawable/buttonim"
-                android:text="CHAT BOT" />
+                android:text="@string/chat_bot"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="20dp" />
             <Button
                 android:id="@+id/button2"
                 android:textStyle="bold"
@@ -50,7 +53,9 @@
                 android:layout_toEndOf="@+id/imageView"
                 android:layout_toRightOf="@+id/imageView"
                 android:background="@drawable/buttonur"
-                android:text="Face detector" />
+                android:text="@string/face_detector"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="5dp" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -61,7 +66,9 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="5dp"
                 android:layout_toRightOf="@+id/button2"
-                app:srcCompat="@drawable/facdet" />
+                app:srcCompat="@drawable/facdet"
+                android:layout_toEndOf="@+id/button2"
+                android:contentDescription="@string/todo5" />
             <Button
                 android:id="@+id/button3"
                 android:layout_marginLeft="5dp"
@@ -75,7 +82,8 @@
                 android:layout_toEndOf="@+id/imageView3"
                 android:layout_toRightOf="@+id/imageView3"
                 android:background="@drawable/buttonim"
-                android:text="AI in OCR" />
+                android:text="@string/ai_in_ocr"
+                android:layout_marginStart="5dp" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -85,7 +93,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/button3"
                 android:layout_toStartOf="@+id/button3"
-                app:srcCompat="@drawable/ocr" />
+                app:srcCompat="@drawable/ocr"
+                android:contentDescription="@string/todo4" />
             <Button
                 android:id="@+id/button4"
                 android:layout_marginLeft="5dp"
@@ -99,8 +108,8 @@
                 android:layout_toEndOf="@+id/imageView4"
                 android:layout_toRightOf="@+id/imageView4"
                 android:background="@drawable/buttonur"
-                android:text="what is a.i"
-                />
+                android:text="@string/what_is_a_i"
+                android:layout_marginStart="5dp" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -112,7 +121,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/button4"
                 android:layout_toStartOf="@+id/button4"
-                app:srcCompat="@drawable/magnet1" />
+                app:srcCompat="@drawable/magnet1"
+                android:contentDescription="@string/todo4" />
             <Button
                 android:id="@+id/button5"
                 android:layout_marginLeft="5dp"
@@ -126,7 +136,8 @@
                 android:layout_toRightOf="@+id/imageView5"
                 android:background="@drawable/buttonim"
                 android:textStyle="bold"
-                android:text="api and library's of a.i" />
+                android:text="@string/api_and_library_s_of_a_i"
+                android:layout_marginStart="5dp" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -138,7 +149,38 @@
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/button5"
                 android:layout_toStartOf="@+id/button5"
-                app:srcCompat="@drawable/thermal" />
+                app:srcCompat="@drawable/thermal"
+                android:contentDescription="@string/todo3" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignEnd="@+id/button5"
+                android:layout_alignRight="@+id/button5"
+                android:layout_below="@+id/button5"
+                android:layout_marginTop="5dp"
+                android:onClick="AiGamesClicked"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:background="@drawable/buttonur"
+                android:textStyle="bold"
+                android:text="@string/games"
+                android:layout_marginStart="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/button6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/button6"
+                android:layout_toStartOf="@+id/button6"
+                app:srcCompat="@drawable/thermal"
+                android:contentDescription="@string/todo6" />
+
 
         </RelativeLayout>
 

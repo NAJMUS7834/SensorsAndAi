@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
 public class Ai extends AppCompatActivity {
 
     @Override
@@ -19,4 +20,10 @@ public class Ai extends AppCompatActivity {
         Intent BotIntent = new Intent(Ai.this,ChatBot.class);
         startActivity(BotIntent);
     }
+    public void AiGamesClicked(View view){
+        Intent AiGamesIntent = new Intent(Ai.this,Game.class);
+        startActivity(AiGamesIntent);
+    }
+
+
 }
